@@ -1,2 +1,2 @@
 # University-Labs
-All the lab excercises from my time in university
+The lab excercises/projects from my time in university. All the code shown here was written by me. 
