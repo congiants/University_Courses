@@ -1,0 +1,90 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+005     lcd_init.i
+005     MAIN.@SCRATCH1
+005     @PSTRINGC_646.@SCRATCH1
+006     lcd_init.@SCRATCH1
+006     @PSTRINGC_646.@SCRATCH2
+007     lcd_putc.c
+008     lcd_gotoxy.x
+008     @delay_ms1.P1
+009     lcd_gotoxy.y
+00A     lcd_gotoxy.address
+00B     lcd_gotoxy.@SCRATCH1
+00C     lcd_send_byte.address
+00D     lcd_send_byte.n
+00E     lcd_send_byte.@SCRATCH1
+00F     lcd_send_nibble.nibble
+F81     PORTB
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000808  LCD_INIT_STRING.call
+000818  LCD_INIT_STRING.data
+00081C  @const654.call
+00081E  @const656.call
+000828  @const657.call
+00082E  @const658.call
+000834  @delay_ms1
+000860  lcd_send_nibble
+0008B0  lcd_send_byte
+0008EC  lcd_init
+00094C  lcd_gotoxy
+00096E  lcd_putc
+0009B2  @PSTRINGC_646
+0009D2  MAIN
+0009D2  @cinit1
+0009E2  @cinit2
+
+Project Directory:
+    C:\Users\D1_Station1\Desktop\Lab_07\Lab_07B\Source_code\
+
+Project Files:
+    source_code.c                                           [23-Απρ-24 17:20  CRC=0886E292]
+    main.h                                                  [23-Απρ-24 15:18  CRC=0813682B]
+    ..\..\..\..\..\..\Program Files\PICC\Devices\18F4550.h  [09-Αυγ-13 15:40  CRC=A157EDDE]
+    flex_lcd.h                                              [23-Απρ-24 16:51  CRC=8F074356]
+
+Source signature=D000BF47
+
+Units:
+    source_code (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   source_code.xsym
+    Errors:      source_code.err
+    Ext Symbols: source_code.esym
+    INHX32:      source_code.hex
+    Symbols:     source_code.sym
+    List:        source_code.lst
+    Debug/COFF:  source_code.cof
+    Project:     source_code.ccspjt
+    Call Tree:   source_code.tre
+    Statistics:  source_code.STA

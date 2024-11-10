@@ -1,0 +1,58 @@
+
+ROM used:   530/32768 (2%)
+            534/32768 (2%) including unused fragments
+
+            0.5 Average locations per line
+            10.4 Average locations per statement
+
+RAM used:   4/2048 (0%) at main() level
+            15/2048 (1%) worst case
+
+Stack used: 5 worst case (5 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   22     8  16  source_code.c
+   68     0   0  main.h
+  821     0   0  ..\..\..\..\..\Program Files\PICC\Devices\18F4550.h
+  144    43  84  flex_lcd.h
+----- -----
+ 1055    51 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     44   4    1             @delay_ms1
+0     20   2    0             @const634
+0     80   8    1   326  2.8  lcd_send_nibble
+0     60   6    3   211  3.8  lcd_send_byte
+0     96   9    2   380  4.7  lcd_init
+0     34   3    4   186  5.5  lcd_gotoxy
+0     68   6    1   272  4.1  lcd_putc
+0     72   7    0   154  2.1  MAIN
+0      2   0    0             @const654
+0     32   3    2             @PSTRINGC_646
+0     12   1    0             @const656
+0      6   1    0             @const657
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               6
+    Statements              51
+    Comments                183
+    Volume (V)              2319
+    Difficulty (D)          21.7
+    Effort to implement (E) 50340
+    Time to implement (T)   47 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   8
+    Maintainability (MI)    143
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-007FE     0  2048  
+00800-00806     4  4  
+00808-07FFE   526  30186  
+
+
+

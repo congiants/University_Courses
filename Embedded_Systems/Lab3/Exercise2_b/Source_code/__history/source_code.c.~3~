@@ -1,0 +1,8 @@
+#include <main.h>
+
+#byte TRISB 0xF93
+#byte PORTB 0xF81
+
+#byte TRISD 0xF95
+#byte PORTD 0xF83
+

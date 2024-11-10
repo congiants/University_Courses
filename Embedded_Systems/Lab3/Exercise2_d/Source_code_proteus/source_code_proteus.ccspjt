@@ -1,0 +1,21 @@
+[PROJECT]
+Target=source_code_proteus.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=source_code_proteus.c
+[Directories]
+Include=C:\Program Files\PICC\Devices\;C:\Program Files\PICC\Drivers\
+[source_code_proteus.c]
+Type=4
+[mru-list]
+1=source_code_proteus.c
+[Opened Files]
+1=source_code_proteus.c
+2=..\..\..\..\AppData\Local\Temp\Temp1_Exercise-2d proteus.zip\Exercise-2d proteus\exercise-2d.c
+3=..\Source_code\source_code.c
+4=
+[Units]
+Count=1
+1=source_code_proteus (main)

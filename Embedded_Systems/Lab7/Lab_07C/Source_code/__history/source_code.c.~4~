@@ -1,0 +1,13 @@
+#include<main.h>
+#include<flex_lcd.h>
+
+#byte PORTB = 0xf81
+
+void main(void){
+   
+   lcd_init();
+   
+   
+   
+   while(){}
+}

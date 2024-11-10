@@ -1,0 +1,9 @@
+#include <main.h>
+
+#byte PORTB = 0xF81
+#byte PORTD = 0xF83
+
+set_tris_b(0xFF);
+
+set_tris_d(0x00);
+

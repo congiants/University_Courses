@@ -1,0 +1,5 @@
+>>> Warning 216 "source_code.c" Line 50(1,2): Interrupts disabled during call to prevent re-entrancy:  (@delay_ms1)
+>>> Warning 216 "source_code.c" Line 50(1,2): Interrupts disabled during call to prevent re-entrancy:  (lcd_send_nibble)
+>>> Warning 216 "source_code.c" Line 50(1,2): Interrupts disabled during call to prevent re-entrancy:  (lcd_send_byte)
+>>> Warning 216 "source_code.c" Line 50(1,2): Interrupts disabled during call to prevent re-entrancy:  (@PSTRINGC_646)
+>>> Warning 216 "source_code.c" Line 50(1,2): Interrupts disabled during call to prevent re-entrancy:  (lcd_gotoxy)

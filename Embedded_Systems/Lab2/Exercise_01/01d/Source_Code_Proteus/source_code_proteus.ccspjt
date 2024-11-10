@@ -1,0 +1,21 @@
+[PROJECT]
+Target=source_code_proteus.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=source_code_proteus.c
+[Directories]
+Include=C:\Program Files\PICC\Devices\;C:\Program Files\PICC\Drivers\
+[source_code_proteus.c]
+Type=4
+[mru-list]
+1=source_code_proteus.c
+[Opened Files]
+1=..\..\..\..\..\AppData\Local\Temp\Temp1_Ασκήσεις εργαστηρίου στα Ενσωματωμένα Συστήματα (Καζακόπουλος)-20240312.zip\Exercise_01 +ι+-_Β+υ+¬+¬+_+¬+_ +_+ψ_Δ+¬+++¬_Γ, +φ+_+¬+++¬_Γ\Exercise_1d +__Α+¦+¬+¬+¦+χ _Α_Β+¬+¦_Β+υ+-+-+-_Ε+¬_Γ\exercise_01d.c
+2=source_code_proteus.c
+3=..\Source_Code_PCB\source_code_pcb.c
+4=
+[Units]
+Count=1
+1=source_code_proteus (main)

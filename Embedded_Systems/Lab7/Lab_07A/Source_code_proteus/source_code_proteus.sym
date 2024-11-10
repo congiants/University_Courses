@@ -1,0 +1,89 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+005     lcd_init.i
+005     @PSTRINGC_646.@SCRATCH1
+006     lcd_init.@SCRATCH1
+006     @PSTRINGC_646.@SCRATCH2
+007     lcd_putc.c
+008     @delay_ms1.P1
+008     lcd_gotoxy.x
+009     lcd_gotoxy.y
+00A     lcd_gotoxy.address
+00B     lcd_gotoxy.@SCRATCH1
+00C     lcd_send_byte.address
+00D     lcd_send_byte.n
+00E     lcd_send_byte.@SCRATCH1
+00F     lcd_send_nibble.nibble
+F81     PORTB
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  LCD_INIT_STRING.call
+000014  LCD_INIT_STRING.data
+000018  @const654.call
+00001A  @const656.call
+000026  @const657.call
+00002C  @delay_ms1
+000058  lcd_send_nibble
+0000A8  lcd_send_byte
+0000E4  lcd_init
+000148  lcd_gotoxy
+00016A  lcd_putc
+0001AE  @PSTRINGC_646
+0001CE  @cinit1
+0001CE  MAIN
+0001DE  @cinit2
+
+Project Directory:
+    C:\Users\D1_Station1\Desktop\Lab_07\Source_code_proteus\
+
+Project Files:
+    source_code_proteus.c                                   [23-Απρ-24 16:34  CRC=BFC7ACFA]
+    main-proteus.h                                          [23-Απρ-24 15:20  CRC=9C188644]
+    ..\..\..\..\..\Program Files\PICC\Devices\18F4550.h     [09-Αυγ-13 15:40  CRC=A157EDDE]
+    flex_lcd-proteus.h                                      [23-Απρ-24 16:46  CRC=3F38ABE2]
+
+Source signature=7BA978E0
+
+Units:
+    source_code_proteus (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+
+Output Files:
+    XREF file:   source_code_proteus.xsym
+    Errors:      source_code_proteus.err
+    Ext Symbols: source_code_proteus.esym
+    INHX32:      source_code_proteus.hex
+    Symbols:     source_code_proteus.sym
+    List:        source_code_proteus.lst
+    Debug/COFF:  source_code_proteus.cof
+    Project:     source_code_proteus.ccspjt
+    Call Tree:   source_code_proteus.tre
+    Statistics:  source_code_proteus.STA

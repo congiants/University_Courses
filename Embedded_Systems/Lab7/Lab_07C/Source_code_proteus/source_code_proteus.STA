@@ -1,0 +1,62 @@
+
+ROM used:   988/31936 (3%)
+            988/31936 (3%) including unused fragments
+
+            0.9 Average locations per line
+            14.7 Average locations per statement
+
+RAM used:   24/2036 (1%) at main() level
+            46/2036 (2%) worst case
+
+Stack used: 12 worst case (6 in main + 6 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   57    23  34  source_code_proteus.c
+   69     0   0  main-proteus.h
+  821     0   0  ..\..\..\..\..\..\Program Files\PICC\Devices\18F4550.h
+  144    44  66  flex_lcd-proteus.h
+----- -----
+ 1091    67 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     44   2    1             @delay_ms1
+0     36   2    0             @const634
+0     80   4    1   326  2.8  lcd_send_nibble
+0     60   3    3   211  3.8  lcd_send_byte
+0    232  12    2   406  4.7  lcd_init
+0     34   2    4   186  5.5  lcd_gotoxy
+0     66   3    1   272  4.1  lcd_putc
+0    122   6    0   204  2.6  init
+0      2   0    0             @const653
+0     32   2    2             @PSTRINGC_646
+0     10   1    0             @const655
+0     26   1    0    32  1.2  MAIN
+0     70   4    0   228  3.5  int_timer_0
+0      6   0    0             @const660
+0      6   0    0             @const661
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               8
+    Statements              67
+    Comments                187
+    Volume (V)              2957
+    Difficulty (D)          27.1
+    Effort to implement (E) 80265
+    Time to implement (T)   1 hours, 14 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   10
+    Maintainability (MI)    152
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000A4   158  0  
+000A6-07CBE   826  30944  
+
+
+

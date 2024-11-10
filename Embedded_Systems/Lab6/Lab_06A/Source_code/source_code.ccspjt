@@ -1,0 +1,20 @@
+[PROJECT]
+Target=source_code.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.011
+Compiler=PCH
+[Target Data]
+FileList=source_code.c
+[Directories]
+Include=C:\Program Files\PICC\Devices\;C:\Program Files\PICC\Drivers\
+[source_code.c]
+Type=4
+[mru-list]
+1=source_code.c
+[Opened Files]
+1=source_code.c
+2=..\Source_code_proteus\source_code_proteus.c
+3=
+[Units]
+Count=1
+1=source_code (main)

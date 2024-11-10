@@ -1,0 +1,127 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     counter
+018     seconds
+019     lcd_init.i
+01A     lcd_init.@SCRATCH1
+024     @PRINTF_D_646.P1
+024     @PSTRINGCN_646.P2
+024     @PSTRINGC_646.@SCRATCH1
+025     @PRINTF_D_646.P1
+025     @PSTRINGC_646.@SCRATCH2
+025     @PSTRINGCN_646.@SCRATCH1
+026     @PSTRINGCN_646.@SCRATCH2
+026     @PRINTF_D_646.@SCRATCH1
+027     @PRINTF_D_646.@SCRATCH2
+028     @PRINTF_D_646.@SCRATCH3
+029     @PRINTF_D_646.@SCRATCH4
+02A     lcd_putc.c
+02A     @DIV88.P1
+02B     @delay_ms1.P1
+02B     @DIV88.P2
+02B     lcd_gotoxy.x
+02C     lcd_gotoxy.y
+02C     @DIV88.@SCRATCH1
+02D     lcd_gotoxy.address
+02E     lcd_gotoxy.@SCRATCH1
+02F     lcd_send_byte.address
+030     lcd_send_byte.n
+031     lcd_send_byte.@SCRATCH1
+032     lcd_send_nibble.nibble
+F81     PORTB
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0000A6  LCD_INIT_STRING.call
+0000C6  LCD_INIT_STRING.data
+0000CA  @const654.call
+0000CC  lcd_send_nibble
+00011C  lcd_send_byte
+000158  @delay_ms1
+000184  lcd_gotoxy
+0001A6  lcd_putc
+0001E8  @PSTRINGC_646
+000208  @PSTRINGCN_646
+000228  @DIV88
+000250  @PRINTF_D_646
+0002FC  int_timer_0
+000346  @const660.call
+000348  @const661.call
+000356  lcd_init
+00043E  init
+00047A  MAIN
+00047A  @cinit1
+00048E  @cinit2
+
+Project Directory:
+    C:\Users\D1_Station1\Desktop\Lab_07\Lab_07D\Source_code_proteus\
+
+Project Files:
+    source_code_proteus.c                                   [23-Απρ-24 18:16  CRC=F06FF1FA]
+    main-proteus.h                                          [23-Απρ-24 15:20  CRC=9C188644]
+    ..\..\..\..\..\..\Program Files\PICC\Devices\18F4550.h  [09-Αυγ-13 15:40  CRC=A157EDDE]
+    flex_lcd-proteus.h                                      [23-Απρ-24 17:01  CRC=3F38ABE2]
+
+Source signature=AC51BDE0
+
+Units:
+    source_code_proteus (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+
+Output Files:
+    XREF file:   source_code_proteus.xsym
+    Errors:      source_code_proteus.err
+    Ext Symbols: source_code_proteus.esym
+    INHX32:      source_code_proteus.hex
+    Symbols:     source_code_proteus.sym
+    List:        source_code_proteus.lst
+    Debug/COFF:  source_code_proteus.cof
+    Project:     source_code_proteus.ccspjt
+    Call Tree:   source_code_proteus.tre
+    Statistics:  source_code_proteus.STA

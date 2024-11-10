@@ -1,0 +1,22 @@
+#include<main-proteus.h>
+#include<flex_lcd-proteus.h>
+
+#byte PORTB = 0xf81
+
+void init(void){
+   lcd_init();
+   
+   lcd_putc("\f");
+   
+   lcd_gotoxy(4,1);
+   
+   lcd_putc("MIKROLAB");
+}
+
+void main(void){
+   while(TRUE){}
+}
+
+
+#INT_TIMER0
+   

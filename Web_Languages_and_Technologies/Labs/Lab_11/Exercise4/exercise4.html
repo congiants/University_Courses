@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Exercise5</title>
+
+    <style>
+        table, td{
+            border: 1px solid black;
+            width: 500px;
+            height: 100px;
+            text-align: center;
+        }
+
+        button{
+            width: 170px;
+            height: 50px;
+            font-size: large;
+        }
+
+        select{
+            width: 170px;
+            height: 50px;
+            font-size: large;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <h1 id="header">Publication</h1>
+    </div>
+
+    <div>
+        <h2 id="title">Title:</h2>
+        <textarea id="titleTextarea"></textarea>
+    </div>
+
+    <div>
+        <h2 id="writter">Writter:</h2>
+        <textarea id="writterTextarea"></textarea>
+    </div>
+
+    <div>
+        <h2 id="theme">Theme:</h2>
+        <textarea id="themeTextarea" readonly></textarea>
+        <br>
+        <button type="button", id="themeButton"> Themes</button>
+    </div>
+
+    <div id="dropdownThemesDiv", style="display:none">
+        <br>
+        <select id="dropdownThemesSelect">
+            <option value="theme1">Theme1</option>
+            <option value="theme2">Theme2</option>
+        </select>
+        <br>
+        <button type="button", id="addThemeButton"> Add theme</button>
+        <button type="button", id="themeDisappearButton"> Close</button>
+    </div>
+
+    <div>
+        <br>
+        <hr>
+        <br>
+        <button type="button", id="submitButton">Submit Publication</button>
+    </div>
+
+    <div id="submitResultsDiv", style="display:none">
+        <br>
+        <h2 id="submitPublication">Publication:</h2S>
+        <h3 id="submitTitle"></h3>
+        <h3 id="submitWritter"></h3>
+        <h3 id="submitThemes"></h3>
+    </div>
+
+</body>
+</html>
